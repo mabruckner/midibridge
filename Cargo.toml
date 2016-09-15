@@ -1,0 +1,15 @@
+[package]
+name = "midibridge"
+version = "0.1.0"
+authors = ["Mitchell Bruckner <mbruckner807@gmail.com>"]
+
+[[bin]]
+name = "client"
+
+[[bin]]
+name = "server"
+
+[dependencies]
+alsa = { path = "alsa" }
+byteorder = "0.5.3"
+clap = "2.10.2"
